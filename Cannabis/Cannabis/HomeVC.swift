@@ -9,16 +9,39 @@
 import UIKit
 
 class HomeVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+ 
     @IBOutlet weak var table: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 table.delegate = self
         table.dataSource = self
         self.table.rowHeight = 116
-        
+     
+       // SideMenuManager = customSideMenuManager
         // Do any additional setup after loading the view.
+    
+   // setupSideMenu()
+   // setDefaults()
+addLeftBarIcon()
+    
+}
+func addLeftBarIcon() {
+    
+    let logoImage = UIImage.init(named: "appUI-2Home")
+    let logoImageView = UIImageView.init(image: logoImage)
+    logoImageView.frame = CGRect(x:0.0,y:0.0, width:180,height:60)
+    logoImageView.contentMode = .scaleAspectFit
+    let imageItem = UIBarButtonItem.init(customView: logoImageView)
+    let widthConstraint = logoImageView.widthAnchor.constraint(equalToConstant: 180)
+    let heightConstraint = logoImageView.heightAnchor.constraint(equalToConstant: 60)
+    heightConstraint.isActive = true
+    widthConstraint.isActive = true
+    navigationItem.leftBarButtonItem =  imageItem
+}
+    @IBAction func sidemenu(_ sender: Any) {
+    
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -26,9 +49,9 @@ table.delegate = self
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        navigationController?.navigationBar.barTintColor = UIColor.white
         // Hide the navigation bar on the this view controller
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
+      //  self.navigationController?.setNavigationBarHidden(true, animated: true)
         
     }
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -84,3 +107,4 @@ table.delegate = self
 //        }
     }
 }
+

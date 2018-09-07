@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BC03C69C21131B7D00EA72AF /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03C69B21131B7D00EA72AF /* SignUpVC.swift */; };
-		BC03C69E21131BAE00EA72AF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03C69D21131BAE00EA72AF /* HomeVC.swift */; };
 		BC03C6A021131BC300EA72AF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03C69F21131BC300EA72AF /* ProfileVC.swift */; };
 		BC03C6A221131C0F00EA72AF /* PersonalProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03C6A121131C0F00EA72AF /* PersonalProfileVC.swift */; };
 		BC03C6A421131C1F00EA72AF /* HealthProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03C6A321131C1F00EA72AF /* HealthProfileVC.swift */; };
@@ -84,12 +83,13 @@
 		BC448A6E2111F397005C2022 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC448A5D2111F397005C2022 /* IQKeyboardManager.bundle */; };
 		BC511F11212D999C00A9F778 /* PainVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC511F10212D999C00A9F778 /* PainVCCell.swift */; };
 		BC882FB321134080005972CD /* Exploredoccell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC882FB221134080005972CD /* Exploredoccell.swift */; };
+		BC8C32A52142A3950026DAA7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C32A42142A3950026DAA7 /* HomeVC.swift */; };
 		BC99450921400AAB008A14F7 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC99450821400AA9008A14F7 /* profile.jpg */; };
+		BCA55613214261DE0091AFF1 /* sidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA55612214261DE0091AFF1 /* sidemenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC03C69B21131B7D00EA72AF /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
-		BC03C69D21131BAE00EA72AF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BC03C69F21131BC300EA72AF /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		BC03C6A121131C0F00EA72AF /* PersonalProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalProfileVC.swift; sourceTree = "<group>"; };
 		BC03C6A321131C1F00EA72AF /* HealthProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthProfileVC.swift; sourceTree = "<group>"; };
@@ -168,7 +168,10 @@
 		BC448A5D2111F397005C2022 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BC511F10212D999C00A9F778 /* PainVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainVCCell.swift; sourceTree = "<group>"; };
 		BC882FB221134080005972CD /* Exploredoccell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exploredoccell.swift; sourceTree = "<group>"; };
+		BC8C32A42142A3950026DAA7 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = ../../Cannabis/Cannabis/HomeVC.swift; sourceTree = "<group>"; };
 		BC99450821400AA9008A14F7 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		BCA55612214261DE0091AFF1 /* sidemenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuVC.swift; sourceTree = "<group>"; };
+		BCA5561621426E050091AFF1 /* SideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideMenu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,12 +216,13 @@
 				BC3AA3CF21413E340002DACF /* DRprofileCell.swift */,
 				BC3AA3D521414F1B0002DACF /* SalectTimeCell.swift */,
 				BC448A032111A8AC005C2022 /* Main.storyboard */,
+				BCA55612214261DE0091AFF1 /* sidemenuVC.swift */,
 				BC3AA3C52141061D0002DACF /* PaymentVC.swift */,
+				BC8C32A42142A3950026DAA7 /* HomeVC.swift */,
 				BC3AA3C7214106A20002DACF /* AppintmentConfirmVC.swift */,
 				BC3AA3C9214107100002DACF /* AppointmentdiaryVC.swift */,
 				BC3AA3CB2141075C0002DACF /* PaymentCompleteVC.swift */,
 				BC03C69B21131B7D00EA72AF /* SignUpVC.swift */,
-				BC03C69D21131BAE00EA72AF /* HomeVC.swift */,
 				BC2855F1212ED41600352F37 /* priscriptionVCCell.swift */,
 				BC03C69F21131BC300EA72AF /* ProfileVC.swift */,
 				BC03C6A121131C0F00EA72AF /* PersonalProfileVC.swift */,
@@ -233,6 +237,7 @@
 				BC3AA3D121413E4E0002DACF /* DrProfileVC.swift */,
 				BC448A442111C97E005C2022 /* LoginVCViewController.swift */,
 				BC448A062111A8B6005C2022 /* Assets.xcassets */,
+				BCA5561621426E050091AFF1 /* SideMenu.h */,
 				BC448A152111A9E7005C2022 /* appUI-2Start.png */,
 				BC3AA3D921415AEA0002DACF /* Screen Shot 2018-09-06 at 6.23.29 PM.png */,
 				BC448A182111B4B3005C2022 /* appUI-bg.png */,
@@ -450,6 +455,8 @@
 				BC3AA3C62141061D0002DACF /* PaymentVC.swift in Sources */,
 				BC448A692111F397005C2022 /* IQInvocation.swift in Sources */,
 				BC448A6C2111F397005C2022 /* IQToolbar.swift in Sources */,
+				BC8C32A52142A3950026DAA7 /* HomeVC.swift in Sources */,
+				BCA55613214261DE0091AFF1 /* sidemenuVC.swift in Sources */,
 				BC3AA3CE214108140002DACF /* AppointmentDiaryCell.swift in Sources */,
 				BC3AA3D021413E340002DACF /* DRprofileCell.swift in Sources */,
 				BC03C6B42113213B00EA72AF /* ProfileVcCell.swift in Sources */,
@@ -466,7 +473,6 @@
 				BC511F11212D999C00A9F778 /* PainVCCell.swift in Sources */,
 				BC448A642111F397005C2022 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 				BC03C6AA21131C5A00EA72AF /* PurchaseHistoryVC.swift in Sources */,
-				BC03C69E21131BAE00EA72AF /* HomeVC.swift in Sources */,
 				BC448A622111F397005C2022 /* IQUIViewController+Additions.swift in Sources */,
 				BC3AA3D421414F040002DACF /* SalecttimeVC.swift in Sources */,
 				BC448A002111A8AC005C2022 /* AppDelegate.swift in Sources */,
