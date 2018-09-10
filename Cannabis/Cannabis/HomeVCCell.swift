@@ -78,3 +78,34 @@ class referfriendcell: UITableViewCell {
     }
     
 }
+class sidemenuCell: UITableViewCell {
+    @IBOutlet weak var namess: UILabel!
+    
+    @IBOutlet weak var sidefooter: UILabel!
+    @IBOutlet weak var images: UIImageView!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+    
+}
+class sidemenuCell1: UITableViewCell {
+  
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+    
+}

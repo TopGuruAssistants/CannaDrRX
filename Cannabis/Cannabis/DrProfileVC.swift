@@ -44,9 +44,9 @@ table.delegate = self
     }
     
     @objc func setappointment(){
-//        let VC  = self.storyboard?.instantiateViewController(withIdentifier: "PickdateVC") as! PickdateVC
-//        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Pain Profile", style: .plain, target: nil, action: nil)
-//        self.navigationController?.pushViewController(VC, animated: true)
+        let VC  = self.storyboard?.instantiateViewController(withIdentifier: "DrAppointmentVC") as! DrAppointmentVC
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Pain Profile", style: .plain, target: nil, action: nil)
+        self.navigationController?.pushViewController(VC, animated: true)
         
     }
 }

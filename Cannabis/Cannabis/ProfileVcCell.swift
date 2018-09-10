@@ -79,4 +79,18 @@ class purchasecell: UITableViewCell {
     }
     
 }
-
+class purchasehistorycell: UITableViewCell {
+    
+    @IBOutlet weak var purchasedetail: UIButton!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        
+        // Configure the view for the selected state
+    }
+    
+}

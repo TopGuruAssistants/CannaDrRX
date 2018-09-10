@@ -33,7 +33,6 @@
 		BC3AA3DA21415AEB0002DACF /* Screen Shot 2018-09-06 at 6.23.29 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA3D921415AEA0002DACF /* Screen Shot 2018-09-06 at 6.23.29 PM.png */; };
 		BC3AA3DC21415EE10002DACF /* star-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA3DB21415EDF0002DACF /* star-filled.png */; };
 		BC3AA3DE214162540002DACF /* gray-star-filled-52.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA3DD214162530002DACF /* gray-star-filled-52.png */; };
-		BC3AA3E021416E580002DACF /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3AA3DF21416E570002DACF /* menu.png */; };
 		BC448A002111A8AC005C2022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4489FF2111A8AC005C2022 /* AppDelegate.swift */; };
 		BC448A022111A8AC005C2022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC448A012111A8AC005C2022 /* ViewController.swift */; };
 		BC448A052111A8AC005C2022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC448A032111A8AC005C2022 /* Main.storyboard */; };
@@ -83,9 +82,20 @@
 		BC448A6E2111F397005C2022 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC448A5D2111F397005C2022 /* IQKeyboardManager.bundle */; };
 		BC511F11212D999C00A9F778 /* PainVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC511F10212D999C00A9F778 /* PainVCCell.swift */; };
 		BC882FB321134080005972CD /* Exploredoccell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC882FB221134080005972CD /* Exploredoccell.swift */; };
-		BC8C32A52142A3950026DAA7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C32A42142A3950026DAA7 /* HomeVC.swift */; };
 		BC99450921400AAB008A14F7 /* profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC99450821400AA9008A14F7 /* profile.jpg */; };
+		BCA156032143D8B100454855 /* PriscriptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA156022143D8B100454855 /* PriscriptionsVC.swift */; };
+		BCA156052143D8C600454855 /* PriscriptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA156042143D8C600454855 /* PriscriptionsCell.swift */; };
+		BCA1D1642143A7AA00EB84EF /* Refer-a-friend.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA1D1632143A7A900EB84EF /* Refer-a-friend.png */; };
+		BCA1D1662143AEDE00EB84EF /* Forgot-password.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA1D1652143AEDD00EB84EF /* Forgot-password.png */; };
+		BCA1D16A2143B1F600EB84EF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D1692143B1F600EB84EF /* HomeVC.swift */; };
+		BCA1D16C2143C67100EB84EF /* ReferFriendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D16B2143C67100EB84EF /* ReferFriendVC.swift */; };
+		BCA1D16E2143C68F00EB84EF /* HowitworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1D16D2143C68F00EB84EF /* HowitworkVC.swift */; };
 		BCA55613214261DE0091AFF1 /* sidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA55612214261DE0091AFF1 /* sidemenuVC.swift */; };
+		BCBBED5C2143EB89002C4C84 /* DrAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBED5B2143EB89002C4C84 /* DrAppointmentVC.swift */; };
+		BCBBED5E2143F488002C4C84 /* DrAppointmentdetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBED5D2143F488002C4C84 /* DrAppointmentdetailsVC.swift */; };
+		BCBBED602143F5A6002C4C84 /* DrApptConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBED5F2143F5A6002C4C84 /* DrApptConfirmationVC.swift */; };
+		BCBBED64214403B2002C4C84 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBED62214403B0002C4C84 /* SWRevealViewController.m */; };
+		BCBBED66214407E7002C4C84 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBED65214407E7002C4C84 /* menuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,7 +125,6 @@
 		BC3AA3D921415AEA0002DACF /* Screen Shot 2018-09-06 at 6.23.29 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-09-06 at 6.23.29 PM.png"; sourceTree = "<group>"; };
 		BC3AA3DB21415EDF0002DACF /* star-filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-filled.png"; sourceTree = "<group>"; };
 		BC3AA3DD214162530002DACF /* gray-star-filled-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gray-star-filled-52.png"; sourceTree = "<group>"; };
-		BC3AA3DF21416E570002DACF /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		BC4489FC2111A8AC005C2022 /* Cannabis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cannabis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4489FF2111A8AC005C2022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC448A012111A8AC005C2022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,10 +177,23 @@
 		BC448A5D2111F397005C2022 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		BC511F10212D999C00A9F778 /* PainVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainVCCell.swift; sourceTree = "<group>"; };
 		BC882FB221134080005972CD /* Exploredoccell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exploredoccell.swift; sourceTree = "<group>"; };
-		BC8C32A42142A3950026DAA7 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeVC.swift; path = ../../Cannabis/Cannabis/HomeVC.swift; sourceTree = "<group>"; };
 		BC99450821400AA9008A14F7 /* profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpg; sourceTree = "<group>"; };
+		BCA156022143D8B100454855 /* PriscriptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriscriptionsVC.swift; sourceTree = "<group>"; };
+		BCA156042143D8C600454855 /* PriscriptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriscriptionsCell.swift; sourceTree = "<group>"; };
+		BCA1D1632143A7A900EB84EF /* Refer-a-friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refer-a-friend.png"; sourceTree = "<group>"; };
+		BCA1D1652143AEDD00EB84EF /* Forgot-password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forgot-password.png"; sourceTree = "<group>"; };
+		BCA1D1692143B1F600EB84EF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BCA1D16B2143C67100EB84EF /* ReferFriendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferFriendVC.swift; sourceTree = "<group>"; };
+		BCA1D16D2143C68F00EB84EF /* HowitworkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowitworkVC.swift; sourceTree = "<group>"; };
 		BCA55612214261DE0091AFF1 /* sidemenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuVC.swift; sourceTree = "<group>"; };
 		BCA5561621426E050091AFF1 /* SideMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideMenu.h; sourceTree = "<group>"; };
+		BCBBED5B2143EB89002C4C84 /* DrAppointmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAppointmentVC.swift; sourceTree = "<group>"; };
+		BCBBED5D2143F488002C4C84 /* DrAppointmentdetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrAppointmentdetailsVC.swift; sourceTree = "<group>"; };
+		BCBBED5F2143F5A6002C4C84 /* DrApptConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrApptConfirmationVC.swift; sourceTree = "<group>"; };
+		BCBBED61214403AA002C4C84 /* Cannabis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cannabis-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCBBED62214403B0002C4C84 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BCBBED63214403B1002C4C84 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BCBBED65214407E7002C4C84 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				BC4489FF2111A8AC005C2022 /* AppDelegate.swift */,
+				BCBBED65214407E7002C4C84 /* menuViewController.swift */,
 				BC448A112111A8F6005C2022 /* masterVC.swift */,
 				BC448A012111A8AC005C2022 /* ViewController.swift */,
 				BC03C6B12113212900EA72AF /* HomeVCCell.swift */,
@@ -215,10 +238,14 @@
 				BC3AA3CD214108140002DACF /* AppointmentDiaryCell.swift */,
 				BC3AA3CF21413E340002DACF /* DRprofileCell.swift */,
 				BC3AA3D521414F1B0002DACF /* SalectTimeCell.swift */,
+				BCA156042143D8C600454855 /* PriscriptionsCell.swift */,
 				BC448A032111A8AC005C2022 /* Main.storyboard */,
+				BCBBED5B2143EB89002C4C84 /* DrAppointmentVC.swift */,
+				BCBBED5D2143F488002C4C84 /* DrAppointmentdetailsVC.swift */,
+				BCBBED5F2143F5A6002C4C84 /* DrApptConfirmationVC.swift */,
 				BCA55612214261DE0091AFF1 /* sidemenuVC.swift */,
+				BCA1D1692143B1F600EB84EF /* HomeVC.swift */,
 				BC3AA3C52141061D0002DACF /* PaymentVC.swift */,
-				BC8C32A42142A3950026DAA7 /* HomeVC.swift */,
 				BC3AA3C7214106A20002DACF /* AppintmentConfirmVC.swift */,
 				BC3AA3C9214107100002DACF /* AppointmentdiaryVC.swift */,
 				BC3AA3CB2141075C0002DACF /* PaymentCompleteVC.swift */,
@@ -230,6 +257,9 @@
 				BC03C6A521131C2F00EA72AF /* PainProfileVC.swift */,
 				BC03C6A721131C4800EA72AF /* RecommendedStrainVC.swift */,
 				BC03C6A921131C5A00EA72AF /* PurchaseHistoryVC.swift */,
+				BCA156022143D8B100454855 /* PriscriptionsVC.swift */,
+				BCA1D16B2143C67100EB84EF /* ReferFriendVC.swift */,
+				BCA1D16D2143C68F00EB84EF /* HowitworkVC.swift */,
 				BC03C6AB21131C6C00EA72AF /* ExploreDocVC.swift */,
 				BC3AA3D321414F040002DACF /* SalecttimeVC.swift */,
 				BC03C6AD21131C7C00EA72AF /* StrainVC.swift */,
@@ -243,14 +273,18 @@
 				BC448A182111B4B3005C2022 /* appUI-bg.png */,
 				BC3AA3DB21415EDF0002DACF /* star-filled.png */,
 				BC448A172111B4B3005C2022 /* logo.png */,
-				BC3AA3DF21416E570002DACF /* menu.png */,
+				BCA1D1652143AEDD00EB84EF /* Forgot-password.png */,
 				BC3AA3DD214162530002DACF /* gray-star-filled-52.png */,
+				BCA1D1632143A7A900EB84EF /* Refer-a-friend.png */,
 				BC448A1B2111B8FE005C2022 /* logo1.png */,
+				BCBBED63214403B1002C4C84 /* SWRevealViewController.h */,
+				BCBBED62214403B0002C4C84 /* SWRevealViewController.m */,
 				BC448A462111F397005C2022 /* IQKeyboardManagerSwift */,
 				BC448A1D2111BB4E005C2022 /* raleway */,
 				BC448A082111A8B6005C2022 /* LaunchScreen.storyboard */,
 				BC99450821400AA9008A14F7 /* profile.jpg */,
 				BC448A0B2111A8B6005C2022 /* Info.plist */,
+				BCBBED61214403AA002C4C84 /* Cannabis-Bridging-Header.h */,
 			);
 			path = Cannabis;
 			sourceTree = "<group>";
@@ -378,6 +412,7 @@
 				TargetAttributes = {
 					BC4489FB2111A8AC005C2022 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -420,8 +455,9 @@
 				BC448A3E2111BB4E005C2022 /* Raleway-Regular.ttf in Resources */,
 				BC448A3C2111BB4E005C2022 /* Raleway-Medium.ttf in Resources */,
 				BC448A422111BB4E005C2022 /* Raleway-ThinItalic.ttf in Resources */,
-				BC3AA3E021416E580002DACF /* menu.png in Resources */,
+				BCA1D1662143AEDE00EB84EF /* Forgot-password.png in Resources */,
 				BC448A072111A8B6005C2022 /* Assets.xcassets in Resources */,
+				BCA1D1642143A7AA00EB84EF /* Refer-a-friend.png in Resources */,
 				BC448A3B2111BB4E005C2022 /* Raleway-LightItalic.ttf in Resources */,
 				BC3AA3DA21415AEB0002DACF /* Screen Shot 2018-09-06 at 6.23.29 PM.png in Resources */,
 				BC448A312111BB4E005C2022 /* Raleway-Black.ttf in Resources */,
@@ -448,14 +484,15 @@
 			files = (
 				BC3AA3CC2141075C0002DACF /* PaymentCompleteVC.swift in Sources */,
 				BC448A662111F397005C2022 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				BCBBED602143F5A6002C4C84 /* DrApptConfirmationVC.swift in Sources */,
 				BC2855F2212ED41600352F37 /* priscriptionVCCell.swift in Sources */,
 				BC03C6A021131BC300EA72AF /* ProfileVC.swift in Sources */,
 				BC03C6AC21131C6C00EA72AF /* ExploreDocVC.swift in Sources */,
 				BC03C6AE21131C7C00EA72AF /* StrainVC.swift in Sources */,
 				BC3AA3C62141061D0002DACF /* PaymentVC.swift in Sources */,
 				BC448A692111F397005C2022 /* IQInvocation.swift in Sources */,
+				BCA156052143D8C600454855 /* PriscriptionsCell.swift in Sources */,
 				BC448A6C2111F397005C2022 /* IQToolbar.swift in Sources */,
-				BC8C32A52142A3950026DAA7 /* HomeVC.swift in Sources */,
 				BCA55613214261DE0091AFF1 /* sidemenuVC.swift in Sources */,
 				BC3AA3CE214108140002DACF /* AppointmentDiaryCell.swift in Sources */,
 				BC3AA3D021413E340002DACF /* DRprofileCell.swift in Sources */,
@@ -467,6 +504,8 @@
 				BC3AA3D221413E4E0002DACF /* DrProfileVC.swift in Sources */,
 				BC03C6A821131C4800EA72AF /* RecommendedStrainVC.swift in Sources */,
 				BC448A5E2111F397005C2022 /* IQNSArray+Sort.swift in Sources */,
+				BCBBED5E2143F488002C4C84 /* DrAppointmentdetailsVC.swift in Sources */,
+				BCA156032143D8B100454855 /* PriscriptionsVC.swift in Sources */,
 				BC03C6A221131C0F00EA72AF /* PersonalProfileVC.swift in Sources */,
 				BC03C69C21131B7D00EA72AF /* SignUpVC.swift in Sources */,
 				BC03C6B22113212900EA72AF /* HomeVCCell.swift in Sources */,
@@ -475,22 +514,28 @@
 				BC03C6AA21131C5A00EA72AF /* PurchaseHistoryVC.swift in Sources */,
 				BC448A622111F397005C2022 /* IQUIViewController+Additions.swift in Sources */,
 				BC3AA3D421414F040002DACF /* SalecttimeVC.swift in Sources */,
+				BCBBED5C2143EB89002C4C84 /* DrAppointmentVC.swift in Sources */,
 				BC448A002111A8AC005C2022 /* AppDelegate.swift in Sources */,
 				BC448A6B2111F397005C2022 /* IQTitleBarButtonItem.swift in Sources */,
 				BC3AA3D621414F1B0002DACF /* SalectTimeCell.swift in Sources */,
+				BCA1D16A2143B1F600EB84EF /* HomeVC.swift in Sources */,
 				BC448A122111A8F6005C2022 /* masterVC.swift in Sources */,
 				BC448A682111F397005C2022 /* IQBarButtonItem.swift in Sources */,
 				BC03C6A421131C1F00EA72AF /* HealthProfileVC.swift in Sources */,
+				BCA1D16C2143C67100EB84EF /* ReferFriendVC.swift in Sources */,
 				BC448A452111C97E005C2022 /* LoginVCViewController.swift in Sources */,
+				BCA1D16E2143C68F00EB84EF /* HowitworkVC.swift in Sources */,
 				BC448A602111F397005C2022 /* IQUITextFieldView+Additions.swift in Sources */,
 				BC03C6B021131C8F00EA72AF /* PriscriptionVC.swift in Sources */,
 				BC448A632111F397005C2022 /* IQKeyboardManagerConstants.swift in Sources */,
 				BC3AA3C8214106A20002DACF /* AppintmentConfirmVC.swift in Sources */,
+				BCBBED66214407E7002C4C84 /* menuViewController.swift in Sources */,
 				BC448A5F2111F397005C2022 /* IQUIScrollView+Additions.swift in Sources */,
 				BC03C6A621131C2F00EA72AF /* PainProfileVC.swift in Sources */,
 				BC2855F0212E9DA300352F37 /* StrainVcCell.swift in Sources */,
 				BC882FB321134080005972CD /* Exploredoccell.swift in Sources */,
 				BC448A6A2111F397005C2022 /* IQPreviousNextView.swift in Sources */,
+				BCBBED64214403B2002C4C84 /* SWRevealViewController.m in Sources */,
 				BC448A6D2111F397005C2022 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				BC448A672111F397005C2022 /* IQTextView.swift in Sources */,
 			);
@@ -636,6 +681,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52853JTM76;
 				INFOPLIST_FILE = Cannabis/Info.plist;
@@ -646,6 +692,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yesitlabs.Cannabis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cannabis/Cannabis-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -655,6 +703,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52853JTM76;
 				INFOPLIST_FILE = Cannabis/Info.plist;
@@ -665,6 +714,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yesitlabs.Cannabis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cannabis/Cannabis-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

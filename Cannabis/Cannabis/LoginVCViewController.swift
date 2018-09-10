@@ -38,7 +38,7 @@ self.navigationController?.setNavigationBarHidden(false, animated: true)
     @IBAction func forgotpassword(_ sender: Any) {
     }
     @IBAction func signin(_ sender: Any) {
-        let VC  = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC")
+        let VC  = self.storyboard?.instantiateViewController(withIdentifier: "SWRevealViewController")
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         //self.navigationController?.present(UIViewController , animated: true)
         self.present(VC!, animated: true)

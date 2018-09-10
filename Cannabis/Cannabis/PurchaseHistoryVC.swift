@@ -8,11 +8,15 @@
 
 import UIKit
 
-class PurchaseHistoryVC: UIViewController {
+class PurchaseHistoryVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    
 
+    @IBOutlet weak var table: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+table.delegate = self
+        table.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -22,14 +26,22 @@ class PurchaseHistoryVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 12
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "purchasehistorycell", for: indexPath) as? purchasehistorycell
+        
+        cell?.purchasedetail.addTarget(self, action: #selector(purchasehistory), for: .touchUpInside)
+        return cell!
+    }
+    
+    @ objc func purchasehistory(){
+        
+        let VC  = self.storyboard?.instantiateViewController(withIdentifier: "PaymentCompleteVC") as! PaymentCompleteVC
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Payment", style: .plain, target: nil, action: nil)
+        self.navigationController?.pushViewController(VC, animated: true)
+    }
 
 }
